@@ -1,0 +1,17 @@
+一　HotSpot VM 基本结构
+1.可插拔的　ＧＣ [serial| Throughput| CMS| G1]和ＪＩＴ[Clinet|Server]
+
+2.32位JVM限制内存大小4G
+
+3.64位JVM普通对象指针由32->64.导致CPU高速缓冲行中的可用oops变少，降低了CPU缓存效率．
+	普通对象指针：　(Ordinary Object Pointers, oops)
+	CPU高速缓存行: (CPU Cache Line)
+
+4.64位JVM使用64位的指针，通过指针压缩至32位
+	压缩指针: (Compressed oops, -XX:+UseCompressedOops　开启)
+	压缩指针通过对齐(Alignment),偏移(Offset)
+
+二　命令行选项
+	标准选项(Standard Option)     		      
+	非标准选项(Nonstandard Option)
+	非稳定性选项(Developer Option)
