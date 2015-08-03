@@ -12,6 +12,13 @@
 	压缩指针通过对齐(Alignment),偏移(Offset)
 
 二　命令行选项
-	标准选项(Standard Option)     		      
-	非标准选项(Nonstandard Option)
-	非稳定性选项(Developer Option)
+	标准选项(Standard Option)     		ＪＶＭ必须实现的
+	非标准选项(Nonstandard Option)		前缀(-X) 不保证　也不强制
+	非稳定性选项(Developer Option)			前缀(-XX) 特定需要
+
+三　VM生命周期
+1.解析命令行选项
+2.设置堆的大小和JIT编译器
+...后面的以后看
+
+四　VM类加载
