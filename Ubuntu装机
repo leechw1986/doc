@@ -1,0 +1,6 @@
+Ubuntu装机
+
+i3 安装tortoisehg
+sudo apt-get install tortoisehg
+
+启动 : thg
