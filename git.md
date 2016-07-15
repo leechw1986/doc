@@ -7,7 +7,7 @@
 | add <file> or .  | 将工作文件修改提交到本地暂存区  |
 | rm <file> or . | 从版本库中删除文件|
 | reset <file> or . or --hard | 从暂存区恢复到工作文件 |
-| ci [<file> \| . or --amend -am "comments "] | 提交记录 --amend 修改最后一次提交记录|
+| ci [<file> \\| . or --amend -am "comments "] | 提交记录 --amend 修改最后一次提交记录|
 | revert <id> HEAD |恢复某次提交的状态，恢复动作本身也创建次提交对象|
 
 查看文件diff
