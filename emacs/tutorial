@@ -1,0 +1,49 @@
+1.查看Emacs快速指南
+Emacs comes with a tutorial. It doesn’t take long to go through, and you will better understand and be more productive in Emacs afterward.
+Type ‘C-h t’ (hold down Control while hitting ‘h’, then hit ‘t’).
+To read the tutorial in a language other than english, use the command ‘help-with-tutorial-spec-language’ (hold down ‘Alt’ while hitting ‘x’, then type ‘help-with-tutorial-spec-language’ and ‘RET’). Currently available tutorial languages include: ‘bg’, ‘cn’, ‘cs’, ‘de’, ‘es’, ‘fr’, ‘it’, ‘ja’, ‘ko’, ‘nl’, ‘pl’, ‘ro’, ‘ru’, ‘sk’, ‘sl’, ‘sv’, ‘th’, and ‘zh’.
+
+快速指南摘要
+
+ 光标移动：
+
+											M-< 文件首
+
+								                             上一行 C-p
+								                                  :
+								            M-b向左移一个词....     :        M-f向右移一个词....
+					C-a行首                     向左移 C-b .... 目前光标位置 .... 向右移 C-f				C-e 行尾
+								                                  :
+								                                  :
+								                             下一行 C-n
+								            M-> 文件尾
+
+
+
+ 命令：
+ 	C-u 重复命令 ex: C-u 8 C-p .... 向上移动8行
+ 	C-g 取消命令 ex: C-u 8 C-g .... 后面的操作不会有 C-u的命令影响
+
+ 窗口:
+ 	C-x 1 .... 关闭其它窗口
+
+ 插入删除:
+ 	<Delback> 	....删除前一个
+ 	C-d       	....删除后一个
+ 	M-<Delback> ....移除前一个词
+ 	M-d			....移除后一个词
+ 	C-k			....移除光标至行尾
+ 	M-k			....移除光标至句尾
+ 	C-y			.... 召回移除
+ 	C-x u/C-_   .... 回退
+
+ 文件
+ 	C-x C-f		....打开/新建一个文件
+ 	C-x C-s		....储存文件
+	C-x C-c		....保存退出
+	 	
+
+
+
+
+

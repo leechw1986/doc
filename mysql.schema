@@ -1,0 +1,14 @@
+mysql schema
+
+-------------------------------报警配置表-------------------------------------------------------------------------------------------------------------
+CREATE TABLE `warnning_config` (
+  `id` varchar(64) NOT NULL,
+  `type` int(2) NOT NULL,
+  `task_code` int(2) NOT NULL,
+  `mail` varchar(400) NOT NULL DEFAULT '',
+  `phone` varchar(100) NOT NULL DEFAULT '',
+  `time` int(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `type` (`type`,`task_code`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 |
+--------------------------------------------------------------------------------------------------------------------------------------------

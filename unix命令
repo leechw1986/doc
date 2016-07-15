@@ -106,3 +106,8 @@ sEx请到： http://sourceforge.net/projects/sex下载！
 [root@www2 tmp]# cp sEx /usr/bin/ 
 
 
+------------------------------------------------------------------------------------------ 
+
+查看文件夹大小
+du -sk FileName
+

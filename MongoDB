@@ -1,0 +1,20 @@
+MongoDB
+
+安装
+apt-get install mongodb
+
+启动
+	
+
+停止(admin 用户可以操作)
+	use admin;
+	db.shutdownServer();
+	db.adminCommand({"shutdown" : 1, "force" : true});//强制终止
+	
+
+权限
+	选定DB : use dbname;
+	为该DB添加用户: db.addUser("username","password");
+	重启服务。
+
+
