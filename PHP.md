@@ -1,9 +1,9 @@
-API
+PHP API
 ===================
 
 # Cache
 
-### memcache
+### JM Memcache
     $memcache = \CCacheManager_Memcached::GetInstance();
     $return[$key]['cn'] = $memcache->smart_get_entry($key, $timeout, array(
     $this->product,
@@ -15,5 +15,6 @@ API
 ### file log
     file_put_contents("/home/jm/logs/search_excption.log", $e->getMessage(), FILE_APPEND);
 
-### string togger
-    
+### string API  
+    $array=explode(separator,$string);
+    $string=implode(glue,$array);

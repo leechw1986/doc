@@ -25,5 +25,5 @@ MEMCACHE
 >> set [_key_] [_0 : 存_] [_timeout_] [_size_]
 
 ### LRU (Least Recently Used)
-> [MEMCACHE lru](http://www.lvtao.net/c/628.html)<br/>
-> [Redis lru](http://blog.csdn.net/wallwind/article/details/44906613)
+> [MEMCACHE LRU](http://www.lvtao.net/c/628.html)<br/>
+> [Redis LRU](http://blog.csdn.net/wallwind/article/details/44906613)
