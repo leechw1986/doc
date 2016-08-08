@@ -9,3 +9,6 @@ sudo apt-get install tortoisehg
 i3 截图使用scrot
 可配置　　bindsym $mod+Shift+p exec "scrot /home/qiw/temp.png"
 然后使用快捷键截图
+
+pdf
+sudo apt-get install okular
