@@ -9,14 +9,14 @@ mac 装机1
 2. homebrew 安装
 -----------------------------------------------------------------------------------------------------------------------------
 首先必须下载XCode... 可以用迅雷的软件中心下载
-http://brew.sh 
+http://brew.sh
 
 Install homebrew {
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 }
 
 为了下载这个买个了vpn  豆荚:
-http://www.djjsq.cn/home.php?mod=spacecp&ac=linelist 
+http://www.djjsq.cn/home.php?mod=spacecp&ac=linelist
 leech/wq47872759
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -34,4 +34,3 @@ clone rep
 
 
 .java 环境 。10.10 没有自带的Java环境，需要到oracle上面下载。1.8下载地址：http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
-

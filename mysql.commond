@@ -2,6 +2,10 @@ mysql -h host -Pport -utest -ptest
 
 UPDATE Person SET Address = 'Zhongshan 23', City = 'Nanjing' WHERE LastName = 'Wilson'
 
+create table xxx select * from xxxx;
+
+delete from tablename;
+
 <foreach collection="list" item="item" separator=";">
     UPDATE shipping_mapping
 	   SET uid = #{item.uid},
@@ -21,20 +25,4 @@ CREATE TABLE `mapping_session` (
   PRIMARY KEY (`mapping_session_id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=392 DEFAULT CHARSET=latin1;
 
-CREATE TABLE user (
-  id int(10) unsigned not null AUTO_INCREMENT,
-  name varchar(20) not null default '',
-  created int(20) not null default 0,
-  PRIMARY KEY (id)
-)ENGINE=InnoDB AUTO_INCREMENT=10000000 DEFAULT CHARSET=utf8
-
-
-CREATE TABLE warnning_config(
-  id varchar(20) unsigned not null,
-  type int(2) not null,
-  task_code int(2) not null,
-  mail varchar(400) not null DEFAULT '',
-  phone varchar(100) not null DEFAULT '',
-  time int(20) not null default 0,
-  PRIMARY KEY(id)
-)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+LOAD DATA INFILE '/var/lib/mysql/import.csv' INTO TABLE starshop_order_detail CHARACTER SET utf8 FIELDS TERMINATED BY ',' ENCLOSED BY '"';
