@@ -42,6 +42,7 @@
     <img src="./vsm.jpg" width = "544" height = "400" alt="Posting List" align=center />
     <img src="./vsmsum.png" width = "544" height = "100" alt="Posting List" align=center />
 * 总之
+
     ```
     1. 索引过程：
     1) 有一系列被索引文件
