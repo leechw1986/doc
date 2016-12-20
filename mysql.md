@@ -26,3 +26,10 @@ CREATE TABLE `mapping_session` (
 ) ENGINE=MyISAM AUTO_INCREMENT=392 DEFAULT CHARSET=latin1;
 
 LOAD DATA INFILE '/var/lib/mysql/import.csv' INTO TABLE starshop_order_detail CHARACTER SET utf8 FIELDS TERMINATED BY ',' ENCLOSED BY '"';
+
+* 改表结构
+```
+alter table tablename add column columnType;
+alter table t2 drop column c;
+alter table infos change list list tinyint not null default '0';
+```

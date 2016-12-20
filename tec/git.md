@@ -1,3 +1,9 @@
+
+| 数据库     | hive 库     |频率     |
+| :------------- | :------------- |:------------- |
+| jumei_products.jumei_mall       | jmbi.jumei_mall       | 时间与jmbi库内其它表相同|
+| jumei_products.jumei_mall_products       | jmbi.jumei_mall_products       | 时间与jmbi库内其它表相同|
+
 Markdown git syntax & Git commend
 =============
     (大标题)内容+ =============
@@ -105,6 +111,8 @@ MARKDOW
     [merge]
     log = true
     ff = false
+
+
 
 ## git commend
 
