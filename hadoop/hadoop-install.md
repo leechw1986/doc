@@ -121,3 +121,5 @@
 - 关闭 YARN
       ./sbin/stop-yarn.sh
       ./sbin/mr-jobhistory-daemon.sh stop historyserver
+
+- SPARK 需要 hive-site.xml
